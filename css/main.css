@@ -4,16 +4,40 @@
 
 * {
     box-sizing: border-box;
-    background-color: #F7F7F4;
     font-family: 'Anonymous Pro', monospace;
     transition: .3s ease-in-out;
 }
 
+html {
+    background-color: #F7F7F4;
+}
 
-.navbar{
+p {
+    font-size: 20px;
+    color: #635850;
+}
+
+h1 {
+    font-family: 'Cousine', monospace;
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 100px;
+
+}
+
+h3 {}
+
+h4 {}
+
+/* NAV BAR*/
+.navbar {
     margin-bottom: 0;
-     position: fixed;
+    position: fixed;
     width: 100%;
+    z-index: 999;
+    background-color: #F7F7F4;
 }
 
 .navbar a,
@@ -21,16 +45,18 @@
     padding-top: 25px;
     color: #36312F;
     font-size: 20px;
-    height:60px;
+    height: 60px;
     text-align: center;
-     border-bottom: 3px solid transparent;
-    
+    border-bottom: 3px solid transparent;
+
 }
 
 .navbar-nav li a:hover {
     border-bottom: 3px solid #B3ACA8;
     background-color: #F7F7F4;
+    font-weight: 800;
 }
+
 
 .icon-bar {
     background-color: black;
@@ -41,16 +67,17 @@
 
 /*COVER PAGE*/
 
-.cover-page{
+.cover-page {
     height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    background-color: #F7F7F4;
 }
 
-.cover-page h1{
+.cover-page h1 {
     margin-top: 0;
     font-size: 12vw;
     color: #36312F;
@@ -60,9 +87,54 @@
     font-weight: bolder;
 }
 
-.cover-page h2{
+.cover-page h2 {
     color: #635850;
     font-size: 2.5vw;
     margin-top: 0;
     text-align: end;
+    border-top: 5px solid #B3ACA8;
+    padding-top: 30px;
 }
+
+/*ABOUT PAGE*/
+.about-page {
+    background-color: #F7F7F4;
+    height: 500px;
+
+}
+
+.about-page p {
+    margin: 0;
+}
+
+.about-page img {
+    width: 40px;
+    margin-right: 15px;
+    filter: invert(33%) sepia(17%) saturate(414%) hue-rotate(343deg) brightness(94%) contrast(80%);
+}
+
+/*SKILL SECTION*/
+.skill-section {
+    border-left: 2px solid #635850;
+}
+
+.skills {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #B3ACA8;
+    margin-bottom: 10px;
+}
+
+.html {
+    width: 100%;
+}
+
+.css {
+    width: 80%;
+}
+
+.js {
+    width: 10%;
+}
+
+/*PROJECT PAGE*/
