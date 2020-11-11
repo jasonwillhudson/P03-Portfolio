@@ -101,7 +101,7 @@ h4 {}
 /*ABOUT PAGE*/
 .about-page {
     background-color: #F7F7F4;
-    height: 550px;
+    padding-top:50px;
 
 }
 
@@ -141,14 +141,18 @@ h4 {}
 
 /*PROJECT PAGE*/
 .projects-page {
-    height: 1000px;
+    padding-top: 200px;
     background-color: #F7F7F4;
 
 }
 
 .projects-page img {
     width: 100%;
-    border: 2px solid #635850;
+}
+
+.img-hover{
+      border: 2px solid #635850;
+    padding: 0;
 }
 
 .project-box {
@@ -157,13 +161,15 @@ h4 {}
 }
 
 .projects-intro {
-    padding: 0 20px;
+    padding: 20px;
+    padding-left: 80px;
 }
 
 
 /*CONTACT PAGE*/
 .contact-page {
-    height: 1000px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: #F7F7F4;
 
 }
