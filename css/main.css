@@ -27,7 +27,9 @@ h2 {
 
 }
 
-h3 {}
+h3 {
+    font-weight: 600;
+}
 
 h4 {}
 
@@ -99,7 +101,7 @@ h4 {}
 /*ABOUT PAGE*/
 .about-page {
     background-color: #F7F7F4;
-    height: 500px;
+    height: 550px;
 
 }
 
@@ -138,3 +140,68 @@ h4 {}
 }
 
 /*PROJECT PAGE*/
+.projects-page {
+    height: 1000px;
+    background-color: #F7F7F4;
+
+}
+
+.projects-page img {
+    width: 100%;
+    border: 2px solid #635850;
+}
+
+.project-box {
+    margin-top: 90px;
+    padding-left: 0;
+}
+
+.projects-intro {
+    padding: 0 20px;
+}
+
+
+/*CONTACT PAGE*/
+.contact-page {
+    height: 1000px;
+    background-color: #F7F7F4;
+
+}
+
+.contact-page h1{
+    margin-bottom: 60px;
+}
+
+.text-input input {
+    margin-bottom: 20px;
+    height: 30px;
+    background-color: #E1E1E1;
+    border: none;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+.text-input label {
+    padding: 0;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+textarea {
+    height: 105px;
+    background-color: #E1E1E1;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+     border: 2px solid transparent;
+}
+
+.submit {
+    width: 100px;
+    float: right;
+    margin-right: 15px;
+    background-color: transparent;
+    border: 2px solid #635850;
+    color: #635850;
+    height: 30px;
+}
