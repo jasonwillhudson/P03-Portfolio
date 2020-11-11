@@ -35,5 +35,6 @@ input[type="text"]:hover {
 
 .in-text-link:hover{
     color: #635850;
-    transform: rotate(360deg);
+    text-decoration: none;
+    border: 2px solid #635850;
 }
