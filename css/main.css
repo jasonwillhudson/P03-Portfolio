@@ -20,12 +20,15 @@ p {
 h1 {
     font-family: 'Cousine', monospace;
     font-size: 100px;
+    color: #36312F;
 }
 
 h2 {
     font-size: 50px;
     padding-top: 0;
     margin-top: 0;
+    font-family: 'Cousine', monospace;
+    color: #36312F;
 
 }
 
@@ -34,6 +37,52 @@ h3 {
 }
 
 h4 {}
+
+footer p{
+    font-size: 16px;
+    flex: 1 1 50%;
+}
+
+footer{
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: #E1E1E1;
+}
+
+.linkBox{
+    flex: 1 1 50%;
+}
+
+.linkBox a{
+        text-decoration: none;
+    color: #635850;
+    float: right;
+    padding: 0 15px;
+}
+
+.linkBox a:hover{
+    font-weight: 800;
+    transform: scale(1.1);
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #36312F;
+}
+
+h4 {
+    font-size: 25px;
+    color: #36312F;
+}
+
+.float-right{
+    float: right;
+}
 
 /* NAV BAR*/
 .navbar {
@@ -98,6 +147,8 @@ h4 {}
     text-align: end;
     border-top: 5px solid #B3ACA8;
     padding-top: 30px;
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 200;
 }
 
 /*ABOUT PAGE*/
@@ -201,7 +252,7 @@ textarea {
     border: none;
     outline: none;
     margin-bottom: 20px;
-     border: 2px solid transparent;
+    border: 2px solid transparent;
 }
 
 .submit {
