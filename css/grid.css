@@ -2,32 +2,44 @@
     display: flex;
 }
 
-.flex-vertical{
+.flex-vertical {
     flex-direction: column;
 }
-.gap-left{
+
+.gap-left {
     margin-left: 2rem;
 }
 
-.gap-right{
+.gap-right {
     margin-right: 2rem;
 }
 
-.gap-both{
+.gap-both {
     margin: 0 2rem;
 }
 
-.padding-left{
+.padding-left {
     padding-left: 2rem;
 }
 
-.padding-right{
+.padding-right {
     padding-right: 2rem;
 }
 
 
 
-.col-1, .col-2, .col-3, .col-4,.col-5, .col-6, .col-7, .col-8,.col-9, .col-10, .col-11, .col-12{
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
     display: flex;
     flex-wrap: wrap;
 }
@@ -81,15 +93,112 @@
     flex: 100%;
 }
 
-input{
-   margin-right: 2rem;
+input {
+    margin-right: 2rem;
 }
 
-.text-area label, .text-area textarea{
+.text-area label,
+.text-area textarea {
     margin-left: 2rem;
 }
 
-.submit{
+.submit {
     margin-left: 91.5%;
     margin-right: 0;
+}
+
+
+
+@media (max-width: 768px) {
+    .container-flex {
+        flex-direction: column;
+    }
+
+    .gap-left,
+    .gap-right,
+    .gap-both,
+    .padding-left,
+    .padding-right {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    form .col-6 {
+        flex: 100%;
+        width: 100%;
+    }
+
+    input,
+    .text-area textarea,
+    .text-area label {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .submit {
+        margin: 0;
+        margin-top: 4rem;
+        width: 100%;
+    }
+
+    .about-page img {
+        margin-top: 2rem;
+        width: 3rem;
+    }
+
+    .skill-section {
+        margin-top: 4rem;
+    }
+
+    .project-box {
+        flex-direction: row;
+        padding-left: 10%;
+    }
+    
+    .project-box .gap-left{
+        margin-left: 4rem;
+    }
+    
+    .cover-page h2{
+        font-size: 5vw;
+        padding-top: 1rem;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .about-page h1,
+    .contact-page h1,
+    .projects-page h1 {
+        font-size: 18vw;
+    }
+
+
+    .project-box {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 4rem;
+        text-align: center;
+    }    
+      .project-box .gap-left{
+        margin-left: 0;
+    }
+    
+    .cover-page h1{
+        font-size: 16vw;
+        line-height: 16vw;
+    }
+    
+    .linkBox{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    
 }
