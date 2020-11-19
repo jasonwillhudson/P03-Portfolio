@@ -198,24 +198,20 @@ h4 {
 
 }
 
+.projects-page h1{
+    margin-bottom: 8rem;
+}
 .projects-page img {
     width: 100%;
 }
 
-.img-hover{
-      border: 2px solid #635850;
-    padding: 0;
-}
-
 .project-box {
-    margin-top: 90px;
+    margin-bottom: 8rem;
     padding-left: 0;
+    align-items: center;
+    padding-left: 40%;
 }
 
-.projects-intro {
-    padding: 20px;
-    padding-left: 80px;
-}
 
 
 /*CONTACT PAGE*/
