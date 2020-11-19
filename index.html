@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="./css/main.css" rel="stylesheet">
     <link href="./css/interaction.css" rel="stylesheet">
+    <link href="./css/grid.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -24,6 +25,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+
+
                 </button>
                 <!-- <a class="navbar-brand" href="#">&lt;/Jason&gt;</a>  -->
             </div>
@@ -50,28 +53,29 @@
 
         <div class="container">
 
-            <h1 class="col-md-12">About</h1>
+            <h1 class="col-12">About</h1>
 
-            <div class="col-md-7">
-                <p>I am a student pursuing Interactive Art Technology major in Simon Fraser University. My main interests are in the field of web design or web development. By applying the knowledge and skills I learned from school to the co-op position, I believe that I could help the companies to create or improve the website in a great quality.</p>
+            <div class="container-flex">
+                <p class="col-7 gap-right">I am a student pursuing Interactive Art Technology major in Simon Fraser University. My main interests are in the field of web design or web development. By applying the knowledge and skills I learned from school to the co-op position, I believe that I could help the companies to create or improve the website in a great quality.</p>
+
+                <!-- SKILL SET -->
+                <div class="col-5 skill-section gap-left padding-left">
+
+                    <p class="col-3">HTML</p>
+                    <div class="skills html"></div>
+
+                    <p class="col-12">CSS</p>
+                    <div class="skills css"></div>
+
+                    <p class="col-12">JavaScript</p>
+                    <div class="skills js"></div>
+
+                </div>
             </div>
 
-            <!-- SKILL SET -->
-            <div class="col-md-5 skill-section">
-
-                <p>HTML</p>
-                <div class="skills html"></div>
-
-                <p>CSS</p>
-                <div class="skills css"></div>
-
-                <p>JavaScript</p>
-                <div class="skills js"></div>
-
-            </div>
 
             <!-- ICON SET -->
-            <div class="col-md-12">
+            <div class="col-12">
                 <a href="#" class="icon"><img src="./image/icon/facebook.svg" alt="facebook"></a>
                 <a href="#" class="icon"><img src="./image/icon/linkedin.svg" alt="linkedin"></a>
                 <a href="#" class="icon"><img src="./image/icon/instagram.svg" alt="instagram"></a>
@@ -84,58 +88,63 @@
     <section id="projects-page" class="projects-page">
 
         <div class="container">
-            <h1 class="col-md-12">Selected<br>Projects</h1>
+            <h1 class="col-12">Selected<br>Projects</h1>
 
             <!-- PROJECT 1 -->
-            <div class="col-md-9 col-md-offset-3 project-box float-right">
-                <div class="projects-intro col-md-6">
-                    <h2>School Project</h2>
-                    <p>A website for Lips&Lips online store</p>
-                    <a href="./project-1.html" class="in-text-link">Click Here For Details</a>
+            <div class="container-flex flex-vertical">
+                <div class="col-12 project-box">
+                    <div class="projects-intro col-6">
+                        <h2>School Project</h2>
+                        <p>A website for Lips&Lips online store</p>
+                        <a href="./project-1.html" class="in-text-link">Click Here For Details</a>
+                    </div>
+                    <div class="col-6 img-hover">
+                        <a href="./project-1.html"><img src="./image/project/project-1.png" alt="project 1 img"></a>
+                    </div>
                 </div>
-                <a href="./project-1.html" class="col-md-6 img-hover"><img src="./image/project/project-1.png" alt="project 1 img"></a>
-            </div>
 
-            <!-- PROJECT 2 -->
-            <div class="col-md-9 project-box">
-                <a href="./project-2.html" class="col-md-6 img-hover"><img src="./image/project/project-2.png" alt="project 2 img"></a>
-                <div class="projects-intro col-md-6">
-                    <h2>School Project</h2>
-                    <p>A website for teenager suicide prevention education</p>
-                    <a href="./project-2.html" class="in-text-link">Click Here For Details</a>
+                <!-- PROJECT 2 -->
+                <div class="col-9 project-box">
+                    <a href="./project-2.html" class="col-6 img-hover"><img src="./image/project/project-2.png" alt="project 2 img"></a>
+                    <div class="projects-intro col-6">
+                        <h2>School Project</h2>
+                        <p>A website for teenager suicide prevention education</p>
+                        <a href="./project-2.html" class="in-text-link">Click Here For Details</a>
+                    </div>
                 </div>
-            </div>
 
+            </div>
         </div>
 
     </section>
 
     <!-- Projects -->
     <section id="contact-page" class="contact-page">
-        <div class="container">
-            <h1>Contact</h1>
-            <div class="col-md-4">
-                <p>Phone:778-888-6688</p>
-                <p>Email:jason@gmail.com</p>
+        <div class="container-flex">
+            <h1 class="col-12">Contact</h1>
+            <div class="col-12">
+                <p class="col-12">Phone:778-888-6688</p>
+                <p class="col-12">Email:jason@gmail.com</p>
             </div>
 
-            <form class="col-md-8">
+            <form class="col-12">
 
-                <div class="text-input col-md-6">
-                    <label class="col-xs-12" for="fname">First Name</label>
-                    <input class="col-xs-12" type="text" id="fname" name="firstname" required>
-                    <label class="col-xs-12" for="lname">Last Name</label>
-                    <input class="col-xs-12" type="text" id="lname" name="lastname" required>
+                <div class="text-input col-6">
+                    <label class="col-12" for="fname">First Name</label>
+                    <input class="col-12" type="text" id="fname" name="firstname" required>
+                    <label class="col-12" for="lname">Last Name</label>
+                    <input class="col-12" type="text" id="lname" name="lastname" required>
                 </div>
 
 
-                <div class="text-input col-md-6 text-area">
-                    <label class="col-xs-12" for="message">Message</label>
-                    <textarea class="col-xs-12 ta" id="message" name="message" required></textarea>
+                <div class="text-input col-6 text-area">
+                    <label class="col-12" for="message">Message</label>
+                    <textarea class="col-12 ta" id="message" name="message" required></textarea>
 
                 </div>
-
-                <input type="submit" value="Submit" class="submit col-md-12">
+                <div class="col-12">
+                    <input type="submit" value="Submit" class="submit">
+                </div>
 
             </form>
         </div>
