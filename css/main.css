@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     padding-top: 0;
     margin-top: 0;
     font-family: 'Cousine', monospace;
@@ -34,10 +34,10 @@ h2 {
 }
 
 h3 {
+    font-size: 3rem;
     font-weight: 600;
 }
 
-h4 {}
 
 footer p {
     font-size: 1.3rem;
@@ -170,17 +170,17 @@ h4 {
 .skill-section {
     border-left: 2px solid #635850;
     padding: 0;
-    height: 190px;
+    height: auto;
 }
 
-.skills {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: #B3ACA8;
-    margin-bottom: 2rem;
+.skill-section ul{
+    padding-left: 2rem;
+    padding-right: 4rem;
 }
 
-
+.skill-section{
+    flex-wrap: nowrap;
+}
 
 /*PROJECT PAGE*/
 .projects-page {

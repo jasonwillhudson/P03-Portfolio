@@ -149,7 +149,14 @@ input {
     }
 
     .skill-section {
-        margin-top: 4rem;
+        margin-top: 2rem;
+        border-top:2px solid #635850;
+        padding-top: 2rem;
+        flex-direction: column;
+    }
+    
+    .skill-section .container-flex{
+        flex-direction: row;
     }
 
     .project-box {
@@ -176,7 +183,9 @@ input {
         font-size: 18vw;
     }
 
-
+    .skill-section h2{
+        font-size: 8vw;
+    }
     .project-box {
         flex-direction: column;
         align-items: center;
