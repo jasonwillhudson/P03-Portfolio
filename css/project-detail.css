@@ -1,6 +1,7 @@
 h1,
 h2 {
     margin: 2rem 0;
+    text-align: center;
 }
 
 h1 {
@@ -8,7 +9,7 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
 }
 
 section {
