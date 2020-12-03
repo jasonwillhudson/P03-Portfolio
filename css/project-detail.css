@@ -63,6 +63,15 @@ img {
     }
 }
 
+@media (max-width: 992px){
+    .up-1{
+        top:-8rem;
+    }
+    
+    .up-2{
+        top: -8rem;
+    }
+}
 @media (max-width: 768px) {
 
     .last,
@@ -70,10 +79,6 @@ img {
         position: default;
         top: auto;
         margin-bottom: 4rem;
-    }
-
-    .up-2 {
-        height: auto;
     }
 
     h1 {
