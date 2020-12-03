@@ -45,7 +45,7 @@ img {
 @media (max-width: 1200px) {
     .up-1 {
         position: relative;
-        top: -9rem;
+        top: -11rem;
     }
 
     .last {
@@ -54,7 +54,7 @@ img {
     }
 
     .up-2 {
-        top: -8rem;
+        top: -11rem;
         height: auto;
     }
     
