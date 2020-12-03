@@ -76,7 +76,7 @@ img {
 
     .last,
     .up-1 {
-        position: default;
+        position: static;
         top: auto;
         margin-bottom: 4rem;
     }
