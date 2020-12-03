@@ -11,6 +11,9 @@ h1 {
 h2 {
     margin-bottom: 6rem;
 }
+p{
+    padding-right: 4rem;
+}
 
 section {
     background-color: #F7F7F4;
@@ -19,7 +22,7 @@ section {
 
 img {
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-bottom: 2rem;
 }
 
@@ -81,7 +84,8 @@ img {
     }
 
     p {
-        font-size: 1.6rem
+        font-size: 1.6rem;
+        padding-right: 0;
     }
 
     .long-img {
