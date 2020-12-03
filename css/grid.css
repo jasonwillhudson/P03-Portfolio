@@ -97,15 +97,8 @@ input {
     margin-right: 2rem;
 }
 
-.text-area label,
-.text-area textarea {
-    margin-left: 2rem;
-}
 
-.submit {
-    margin-left: 91.5%;
-    margin-right: 0;
-}
+
 
 
 
@@ -180,11 +173,11 @@ input {
     .about-page h1,
     .contact-page h1,
     .projects-page h1 {
-        font-size: 18vw;
+        font-size: 16vw;
     }
-
+    
     .skill-section h2{
-        font-size: 8vw;
+        font-size: 6vw;
     }
     .project-box {
         flex-direction: column;
@@ -193,16 +186,22 @@ input {
         padding-right: 0;
         margin-top: 4rem;
         text-align: center;
-    }    
+        margin-bottom: 0;
+    } 
+    
       .project-box .gap-left{
         margin-left: 0;
     }
     
+    .project-box h2{
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
     .cover-page h1{
         font-size: 16vw;
         line-height: 16vw;
     }
-    
+     
     .linkBox{
         display: flex;
         justify-content: center;
