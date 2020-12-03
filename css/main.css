@@ -8,6 +8,12 @@
     transition: .3s ease-in-out;
 }
 
+.citation{
+    background-color: #F7F7F4;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 html {
     background-color: #F7F7F4;
 }
@@ -268,7 +274,8 @@ textarea {
 
     .about-page h1,
     .contact-page h1,
-    .projects-page h1 {
+    .projects-page h1,
+    .citation h1{
         font-size: 7rem;
     }
 
