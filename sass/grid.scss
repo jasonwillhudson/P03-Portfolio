@@ -1,0 +1,209 @@
+﻿@mixin removeGap{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container-flex {
+	display: flex;
+}
+.flex-vertical {
+	flex-direction: column;
+}
+.gap-left {
+	margin-left: 2rem;
+}
+.gap-right {
+	margin-right: 2rem;
+}
+.gap-both {
+	margin: 0 2rem;
+}
+.padding-left {
+	padding-left: 2rem;
+}
+.padding-right {
+	padding-right: 2rem;
+}
+.col-1 {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 8.33%;
+}
+.col-2 {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 16.66%;
+}
+.col-3 {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 25%;
+}
+.col-4 {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 33.33%;
+}
+.col-5 {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 41.66%;
+}
+.col-6 {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 50%;
+}
+.col-7 {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 58.33%;
+}
+.col-8 {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 66.66%;
+}
+.col-9 {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 75%;
+}
+.col-10 {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 83.33%;
+}
+.col-11 {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 91.66%;
+}
+.col-12 {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 100%;
+}
+input {
+	margin-right: 2rem;
+}
+@media (max-width: 768px) {
+	.container-flex {
+		flex-direction: column;
+	}
+	.gap-left {
+		@include removeGap;
+	}
+	.gap-right {
+		@include removeGap;
+	}
+	.gap-both {
+		@include removeGap;
+	}
+	.padding-left {
+		@include removeGap;
+	}
+	.padding-right {
+		@include removeGap;
+	}
+	form {
+		.col-6 {
+			flex: 100%;
+			width: 100%;
+		}
+	}
+	input {
+		@include removeGap;
+	}
+	.text-area {
+		textarea {
+			@include removeGap;
+		}
+		label {
+			@include removeGap;
+		}
+	}
+	.submit {
+		margin: 0;
+		margin-top: 4rem;
+		width: 100%;
+	}
+	.about-page {
+		img {
+			margin-top: 2rem;
+			width: 3rem;
+		}
+	}
+	.skill-section {
+		margin-top: 2rem;
+		border-top: 2px solid #635850;
+		padding-top: 2rem;
+		flex-direction: column;
+		.container-flex {
+			flex-direction: row;
+		}
+	}
+	.project-box {
+		flex-direction: row;
+		padding-left: 10%;
+		.gap-left {
+			margin-left: 4rem;
+		}
+	}
+	.cover-page {
+		h2 {
+			font-size: 5vw;
+			padding-top: 1rem;
+		}
+	}
+}
+@media (max-width: 576px) {
+	.about-page {
+		h1 {
+			font-size: 16vw;
+		}
+	}
+	.contact-page {
+		h1 {
+			font-size: 16vw;
+		}
+	}
+	.projects-page {
+		h1 {
+			font-size: 16vw;
+		}
+	}
+	.skill-section {
+		h2 {
+			font-size: 6vw;
+		}
+	}
+	.project-box {
+		flex-direction: column;
+		align-items: center;
+		padding-left: 0;
+		padding-right: 0;
+		margin-top: 4rem;
+		text-align: center;
+		margin-bottom: 0;
+		.gap-left {
+			margin-left: 0;
+		}
+		h2 {
+			margin-top: 2rem;
+			font-size: 2.1rem;
+		}
+	}
+	.cover-page {
+		h1 {
+			font-size: 16vw;
+			line-height: 16vw;
+		}
+	}
+	.linkBox {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		flex-direction: column;
+	}
+}

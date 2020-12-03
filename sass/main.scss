@@ -1,0 +1,268 @@
+﻿@import "https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap";
+* {
+	box-sizing: border-box;
+	font-family: 'Anonymous Pro',monospace;
+	transition: .3s ease-in-out;
+}
+.citation {
+	background-color: #F7F7F4;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+html {
+	background-color: #F7F7F4;
+}
+p {
+	font-size: 2rem;
+	color: #635850;
+}
+h1 {
+	font-family: 'Cousine',monospace;
+	font-size: 8.5rem;
+	color: #36312F;
+	font-weight: 600;
+}
+h2 {
+	font-size: 3.2rem;
+	padding-top: 0;
+	margin-top: 0;
+	font-family: 'Cousine',monospace;
+	color: #36312F;
+}
+h3 {
+	font-size: 3rem;
+	font-weight: 600;
+	margin-top: 4rem;
+	font-weight: 600;
+	font-size: 40px;
+	color: #36312F;
+}
+footer {
+	p {
+		font-size: 1.6rem;
+		text-align: center;
+		font-weight: 600;
+		flex: 1 1 50%;
+	}
+	font-size: 1.6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 2rem 3rem;
+	background-color: #E1E1E1;
+}
+.linkBox {
+	flex: 1 1 50%;
+	a {
+		text-decoration: none;
+		color: #635850;
+		float: right;
+		padding: 0 1.5rem;
+		font-size: 1.6rem;
+		&:hover {
+			font-weight: 800;
+			transform: scale(1.1);
+		}
+	}
+}
+h4 {
+	font-size: 25px;
+	color: #36312F;
+}
+.float-right {
+	float: right;
+}
+.navbar {
+	margin-bottom: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	background-color: #F7F7F4;
+	a {
+		padding-top: 25px;
+		color: #36312F;
+		font-size: 20px;
+		height: 60px;
+		text-align: center;
+		border-bottom: 3px solid transparent;
+	}
+}
+.navbar-nav {
+	li {
+		a {
+			padding-top: 25px;
+			color: #36312F;
+			font-size: 20px;
+			height: 60px;
+			text-align: center;
+			border-bottom: 3px solid transparent;
+			&:hover {
+				border-bottom: 3px solid #B3ACA8;
+				background-color: #F7F7F4;
+				font-weight: 800;
+			}
+		}
+	}
+}
+.icon-bar {
+	background-color: #000;
+	height: 70px;
+	margin-top: 10px;
+}
+.cover-page {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	background-color: #F7F7F4;
+	h1 {
+		margin-top: 0;
+		font-size: 12vw;
+		color: #36312F;
+		font-family: 'Cousine',monospace;
+		line-height: 11vw;
+		word-spacing: -4vw;
+		font-weight: bolder;
+	}
+	h2 {
+		color: #635850;
+		font-size: 2.5vw;
+		margin-top: 0;
+		text-align: end;
+		border-top: 5px solid #B3ACA8;
+		padding-top: 30px;
+		font-family: 'Anonymous Pro',monospace;
+		font-weight: 200;
+	}
+}
+.about-page {
+	background-color: #F7F7F4;
+	padding-top: 10px;
+	img {
+		width: 4rem;
+		margin-right: 2rem;
+		margin-top: 2rem;
+		filter: invert(33%) sepia(17%) saturate(414%) hue-rotate(343deg) brightness(94%) contrast(80%);
+	}
+}
+.skill-section {
+	border: 2px solid #635850;
+	padding: 2rem;
+	flex-wrap: nowrap;
+	height: 26rem;
+	ul {
+		padding-left: 2rem;
+		padding-right: 4rem;
+	}
+}
+.projects-page {
+	padding-top: 100px;
+	background-color: #F7F7F4;
+	h1 {
+		margin-bottom: 4rem;
+	}
+	img {
+		width: 100%;
+	}
+}
+.project-box {
+	margin-bottom: 4rem;
+	padding-left: 0;
+	align-items: center;
+	padding-left: 30%;
+}
+.contact-page {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #F7F7F4;
+	h1 {
+		margin-bottom: 4rem;
+	}
+}
+form {
+	margin-top: 4rem;
+}
+.text-input {
+	input {
+		margin-bottom: 20px;
+		height: 30px;
+		background-color: #E1E1E1;
+		border: none;
+		outline: none;
+		border: 2px solid transparent;
+	}
+	label {
+		padding: 0;
+		font-size: 16px;
+		font-weight: 100;
+	}
+}
+textarea {
+	height: 105px;
+	background-color: #E1E1E1;
+	border: none;
+	outline: none;
+	margin-bottom: 20px;
+	border: 2px solid transparent;
+}
+.submit {
+	width: 100px;
+	float: right;
+	background-color: transparent;
+	border: 2px solid #635850;
+	color: #635850;
+	height: 30px;
+	margin-left: 91.5%;
+	margin-right: 0;
+}
+.text-area {
+	label {
+		margin-left: 2rem;
+	}
+	textarea {
+		margin-left: 2rem;
+	}
+}
+@media (max-width: 992px) {
+	.about-page {
+		h1 {
+			font-size: 7rem;
+		}
+	}
+	.contact-page {
+		h1 {
+			font-size: 7rem;
+		}
+	}
+	.projects-page {
+		h1 {
+			font-size: 7rem;
+		}
+	}
+	.citation {
+		h1 {
+			font-size: 7rem;
+		}
+	}
+	h3 {
+		font-size: 2rem;
+	}
+	.text-input {
+		label {
+			font-size: 1.6rem;
+		}
+	}
+	p {
+		font-size: 1.6rem;
+	}
+	a {
+		font-size: 1.6rem;
+	}
+	a.in-text-link {
+		font-size: 1.6rem;
+	}
+}

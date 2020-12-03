@@ -1,0 +1,40 @@
+﻿.icon {
+	&:hover {
+		transform: rotate(360deg);
+	}
+}
+input[type="submit"] {
+	&:hover {
+		background-color: #635850;
+		color: #F7F7F4;
+	}
+}
+input[type="text"] {
+	&:hover {
+		background-color: transparent;
+		border: 2px solid #635850;
+	}
+}
+.textarea_hover {
+	background-color: transparent;
+	border: 2px solid #635850;
+}
+.img-hover {
+	img {
+		&:hover {
+			transform: scale(1.2);
+		}
+	}
+	overflow: hidden;
+}
+.in-text-link {
+	font-size: 18px;
+	color: #B3ACA8;
+	border-bottom: 2px solid transparent;
+	padding-bottom: 5px;
+	&:hover {
+		color: #635850;
+		text-decoration: none;
+		border-bottom: 2px solid #635850;
+	}
+}
